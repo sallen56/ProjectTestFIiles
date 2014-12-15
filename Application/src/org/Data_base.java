@@ -42,7 +42,7 @@ public  class Data_base implements User_Database  {
 				private JTable flighttable;
 				
 				// method to login
-				public boolean login(String username, String password){
+				/*public boolean login(String username, String password){
 				
 		        	try {
 		        	// Establish the connection.
@@ -61,7 +61,7 @@ public  class Data_base implements User_Database  {
 		            	
 		            		
 		        	}
-		        
+		        */
 				// Handle any errors that may have occurred.
 				catch (Exception e) {
 					e.printStackTrace();
